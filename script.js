@@ -30,6 +30,8 @@ var repository = [
     "Mais vale um gosto do que o dinheiro no bolso.",
     "O combinado não é caro nem barato.",
     "Falar é prata, calar é ouro.",
+    "O vagabundo trabalha dobrado.",
+    "Deus ajuda quem cedo madruga.",
     "Quem conta um conto, aumenta um ponto."    
 ];
 
