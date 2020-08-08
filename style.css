@@ -44,7 +44,11 @@ body{
 }
 
 .fa-quote-left{
-    font-size: 4rem;
+    font-size: 2.75rem;
+}
+
+.fa-quote-right{
+    font-size: 2.75rem;
 }
 
 .button-container{
