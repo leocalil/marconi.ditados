@@ -20,32 +20,31 @@ async function getQuote(){
     }
 } */
 
-var repository = [
-    "Cada um dá o que tem.",
-    "Calar é prata, falar é ouro.",
-    "Cavalo dado não se olha os dentes.",
-    "Deus ajuda quem cedo madruga.",
-    "É melhor ser cabeça de lagartixa do que rabo de jacaré.",
-    "Mais vale um gosto do que o dinheiro no bolso.",
-    "O combinado não é caro nem barato.",
-    "O dia que passa não volta mais.",
-    "O Diabo enfeitou tanto os olhos do filho, que até furou.",
-    "O seguro morreu de velho.",
-    "O vagabundo trabalha dobrado.",
-    "Para bom entendedor pingo é letra.",
-    "Quem avisa amigo é.",
-    "Quem conta um conto, aumenta um ponto.",
-    "Quem fala muito, dá bom dia para o cavalo.",
-    "Quem fala o que quer, ouve o que não quer.",
-    "Quem faz mal feito faz duas vezes.",
-    "Quem muito quer nada tem.",
-    "Quem não tem a cabeça, tem as pernas.",
-    "Quem não tem vergonha todo mundo é seu.",
-    "Quem quer faz, quem não quer manda.",
-    "Quem tem medo da derrota não tem força pra vencer.",
-    "Um homem prevenido vale por dois."      
+var repository = [       
+    "Cada um dá o que tem.",
+    "Calar é prata, falar é ouro.",
+    "Cavalo dado, não se olha os dentes.",
+    "Deus ajuda a quem cedo madruga.",
+    "É melhor ser cabeça de lagartixa do que rabo de jacaré.",
+    "Falar é prata, calar é ouro.",
+    "Mais vale um gosto do que o dinheiro no bolso.",
+    "O combinado não é caro nem barato.",
+    "O dia que passa não volta mais.",
+    "O Diabo enfeitou tanto os olhos do filho, que até furou.",
+    "O seguro morreu de velho.",        
+    "O vagabundo trabalha dobrado.",
+    "Para bom entendedor, pingo é letra.",
+    "Quem avisa, amigo é.",
+    "Quem conta um conto, aumenta um ponto.",
+    "Quem fala muito, dá bom dia para o cavalo.",
+    "Quem fala o que quer, ouve o que não quer.",
+    "Quem faz mal feito, faz duas vezes.",
+    "Quem não tem a cabeça, tem as pernas.",
+    "Quem não tem vergonha, todo mundo é seu.",
+    "Quem quer faz, quem não quer, manda.",
+    "Quem tem medo da derrota, não tem força para vencer.",
+    "Um homem previnido, vale por dois."    
 ];
-
 
 // Random integer smaller than repository length;
 var imax = repository.length;

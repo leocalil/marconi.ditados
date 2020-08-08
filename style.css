@@ -23,7 +23,7 @@ body{
     max-width: 900px;
     padding: 20px 30px;
     border-radius: 10px;
-    background-color: rgba(255,255,255, 0.4);
+    background-color: rgba(255,255,255, 0.5);
     box-shadow: 0 10px 10px 10px rgba(0,0,0, 0.2);
 }
 
@@ -44,12 +44,8 @@ body{
 }
 
 .fa-quote-left{
-    font-size: 2.75rem;
+    font-size: 3rem;
 }
-
-/* .fa-quote-right{
-    font-size: 2.75rem;
-} */
 
 .button-container{
     margin-top: 15px;
