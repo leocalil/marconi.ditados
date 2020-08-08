@@ -21,14 +21,15 @@ async function getQuote(){
 } */
 
 var repository = [
-    "Quem não tem vergonha todo mundo é seu.",
-    "Quem tem boca, dá bom dia para o cavalo.",
+    "Quem não tem vergonha, todo mundo é seu.",
+    "Quem fala muito, dá bom dia para o cavalo.",
     "É melhor ser cabeça de lagartixa do que rabo de jacaré.",
     "Quem não tem a cabeça, tem as pernas.",
     "O Diabo enfeitou tanto os olhos do filho, que até furou.",
     "O seguro morreu de velho.",
     "Mais vale um gosto do que o dinheiro no bolso.",
     "O combinado não é caro nem barato.",
+    "Falar é prata, calar é ouro.",
     "Quem conta um conto, aumenta um ponto."    
 ];
 
