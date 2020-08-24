@@ -4,7 +4,22 @@ var quoteText = document.getElementById('quote');
 var authorText = document.getElementById('author');
 var twitterButton = document.getElementById('twitter');
 var newQuoteButton = document.getElementById('new-quote');
+var loader = document.getElementById('loader');
 
+
+//Show loading
+function loading(){
+    loader.hidden = false;
+    quoteContainer.hidden = true;
+}
+
+// Hide loading
+function complete(){
+    if(!loader.hidden){
+        quoteContainer.hidden = false;
+        loader.hidden = true;
+    }
+}
 
 /* // Get Quote From API
 async function getQuote(){
@@ -34,6 +49,8 @@ var repository = [
     "O seguro morreu de velho.",        
     "O vagabundo trabalha dobrado.",
     "Para bom entendedor, pingo é letra.",
+    "Cavalo selado não passa duas vezes.",
+    "O peixe morre pela boca.",
     "Quem avisa, amigo é.",
     "Quem conta um conto, aumenta um ponto.",
     "Quem fala muito, dá bom dia para o cavalo.",
@@ -51,6 +68,7 @@ var imax = repository.length;
 
 // Print Marcondes Text
 async function printQuote(){
+    loading();
     let i = Math.floor((Math.random() * imax) + 1)-1;
     let data = repository[i];
     //Reduce font size for long quotes
@@ -60,6 +78,8 @@ async function printQuote(){
         quoteText.classList.remove('long-quote');
     }
     quoteText.innerText = data;
+    // Stop showing loader and show quote;
+    complete();
 }
 
 function tweetQuote(){
